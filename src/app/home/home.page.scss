@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -16,9 +15,7 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
@@ -28,4 +25,43 @@
 
 ion-content ion-toolbar {
   --background: translucent;
+}
+
+.item.item-trns{
+  border-color: rgba(0, 0, 0, 0);
+  background-color:rgba(0,0,0,0);
+}
+
+ion-item {
+  text-align: center;
+  --background: translucent;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ion-icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ion-card {
+  max-width: 800px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+ion-title {
+  text-align: center;
+}
+
+ion-toolbar {
+  --background: linear-gradient(170deg, rgba(0, 0, 0, .8) 20%, rgba(34, 22, 82, .8) 100%), bottom no-repeat;
+  color: white;
+}
+
+ion-content {
+  --background: linear-gradient(170deg, rgba(222, 201, 230, .8) 20%, rgba(255, 255, 255, .8) 100%), bottom no-repeat;
 }
